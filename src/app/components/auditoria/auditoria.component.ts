@@ -57,6 +57,8 @@ export class AuditoriaComponent implements OnInit {
    }
 
   ngOnInit(): void {
+    
+
   }
   openPopUp(){
     this._matDialog.open(PopupComponent)

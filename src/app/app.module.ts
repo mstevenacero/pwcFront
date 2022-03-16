@@ -11,7 +11,9 @@ import { UneteComponent } from './components/unete/unete.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { PopupComponent } from './components/popup/popup.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './components/login/login.component';
+import { UsersComponent } from './components/users/users.component'; 
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     UneteComponent,
     NosotrosComponent,
-    PopupComponent
+    PopupComponent,
+    LoginComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
