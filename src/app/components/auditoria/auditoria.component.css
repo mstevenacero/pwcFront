@@ -1,0 +1,207 @@
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#info{
+    background-color:#D85604;
+    color:#fff
+}
+.title{
+    margin-top:5% ;
+    padding: 5% ;
+}
+.parrafo{
+    padding: 5%;
+}
+#imagen{
+    padding: 10%;
+}
+#info2{
+  background-image: url(../../../assets/img/edificios.jpeg);
+}
+.button{
+    width: 650px;
+    height: 50px;
+    border: solid #C4C4C4;
+    background-color: #fff;
+    
+}
+.button:hover{
+    width: 650px;
+    height: 50px;
+    background-color:#E0301E;
+    color: #fff;
+    
+}
+.botton{
+    padding-top: 3rem;
+    padding-left:5rem ;
+    padding-bottom:3rem ;
+}
+#fa{
+    padding-left:5rem ;
+
+}
+#col1{
+    padding:1% ;
+    width: 44,5rem;
+    height:20rem ;
+    background-image: url(../../../assets/img/public1-auditoria.webp);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 21.43rem;
+}
+#col2{
+    padding: 1%;
+    width: 44,rem;
+    height:20rem ;
+    background-position: 50% 50%;
+    background-image: url(../../../assets/img/CEO.webp);
+    background-repeat: no-repeat;
+    min-height: 21.43rem;
+}
+.box{
+    width:30rem ;
+    height: 8rem;
+    background-color: #2d2d2d;
+    z-index: 2;
+    margin-top: 13rem;
+   
+}
+.box:hover{
+    width:30rem ;
+    height: 10rem;
+    background-color:#2d2d2d;
+    z-index: 2;
+    margin-top: 11rem;
+
+}
+.ref{
+    color: #fff;
+    font-size: 24px;
+    z-index: 3;
+    padding-top: 34px;
+}
+.butt{
+height:144px;
+background-color:#E0301E;
+border: none;
+margin-top: 2px;
+font-size: 24px;
+color: #fff;
+}
+.butt:hover{
+    height:144px;
+    background-color:#A32020;
+    border: none;
+    margin-top: 2px;
+    font-size: 24px;
+    color: #fff;
+}
+    
+#spam1{
+    width: 20px;
+    height: 10px;
+}
+#cardOne{
+   
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-left: 7rem;
+    border: none;
+    width: 380px;
+
+}
+#h5{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-bottom:3rem ;
+}
+#contacto{
+    display: flex;
+    flex-wrap: wrap;
+}
+#col3{
+    margin-left: 700px;
+}
+.redes{
+    
+    margin-left: 5px;
+}
+.imgRedes{
+    height:20px ;
+  
+}
+.boxText{
+    margin-top:4rem;
+    margin-left: 5rem;
+}
+.h3{
+    padding:15px ;
+}
+hr {
+    margin-top: 1rem;
+    height: 4px;
+    background-color: black;
+  }
+#imagenT{
+    max-width:100%;
+}
+#formulario{
+    background-color: #fff;
+    height:900px ;
+    width: 500px;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.form-group{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+   
+}
+.form-control{
+    height: 40px;
+    background-color: #DEDEDE;
+}
+.custom-select{
+    margin-top: 0.5rem;
+    width: 415px;
+    height: 40px;
+    background-color: #DEDEDE;
+    border: none;
+    
+}
+#textA{
+    height:180px;
+}
+#titleh5{
+    margin-left: 2rem;
+    z-index: 4;
+    
+}
+form{
+    margin-top: 2rem;
+}
+#labelTitle{
+    color:#cfcfcf;
+}
+.submit{
+    margin: 2.5rem;
+    border: none;
+    height: 35px;
+    background-color: #D85604;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 16px;
+}
+h5{
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+}

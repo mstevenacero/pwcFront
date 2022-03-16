@@ -1,0 +1,43 @@
+.fotter{
+    background-color: #2d2d2d;
+    color: #fff;
+}
+#p{
+    margin:4rem ;
+}
+.ref1{
+    color: #fff;
+
+}
+#col{
+    margin-left: 5rem;
+}
+#col2{
+    margin-left:2rem ;
+}
+#col3{
+    margin-left:2rem ;
+}
+hr{
+    height: 2px;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+#img{
+    width:70px ;
+    margin-left: 7rem;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 16px;
+}
+h5{
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+}

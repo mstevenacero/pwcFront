@@ -1,0 +1,165 @@
+<div class="row">
+    <div id="info" class="col">
+        <div>
+            <h1 class="title">Servicios integrales de auditoría y aseguramiento PwC Colombia</h1>
+            <p class="parrafo">Aportamos el valor que estás buscando construyendo confianza en la sociedad a través del
+                conocimiento y experiencia para responder a los desafíos que plantea el Covid -19.</p>
+        </div>
+        <div>
+            <h1 class="title">¿Cómo podemos ayudarlos?</h1>
+            <p class="parrafo">Nuestro compromiso es ofrecer servicios integrales de auditoría y aseguramiento de alta
+                calidad que
+                están diseñados para ofrecer un valor real a nuestros clientes generando confianza para socios,
+                accionistas y público en general en tiempos de Covid-19. Nuestra auditoría se apoya en las mejores
+                prácticas, un equipo de trabajo experto y calificado y contamos con el apoyo de nuestra red global
+                disponible para seguir aportando valor.</p>
+            <img id="imagen" src="../../../assets/img/governance-structure.webp" alt="">
+        </div>
+    </div>
+    <div id="info2" class="col">
+        <div id="formulario">
+            <div>
+                <div id="titleh5">
+                    <h5>Contactenos</h5>
+                    <label id="labelTitle">Déjanos tus datos y nuestro equipo se contactará contigo durante el
+                        día.</label>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                            <label for="inputEmail4">Nombre y Apellidos</label>
+                            <input [(ngModel)]="registro.name" class="form-control" name="registro.name"
+                                placeholder="Escribe nombre y apellido">
+                        </div>
+                        <div class="form-group col-md-10 ">
+                            <label for="inputPassword4">Empresa</label>
+                            <input [(ngModel)]="registro.enterprise" name="registro.enterprise" type="text"
+                                class="form-control" id="inputPassword4" name="enterprise"
+                                placeholder="Escribe el nombre de tu empresa">
+                        </div>
+                        <div class="form-group col-md-10 ">
+                            <label for="inputPassword4">Cuidad / Region</label>
+                            <input [(ngModel)]="registro.city" name="registro.city" type="text" class="form-control"
+                                id="inputPassword4" placeholder="Escribe el nombre de tu cuidad">
+                        </div>
+                        <div class="form-group col-md-10 ">
+                            <label for="inputPassword4">Correo electronico</label>
+                            <input [(ngModel)]="registro.email" name="registro.email" name="email" type="email"
+                                class="form-control" id="inputPassword4" placeholder="Escribe el nombre de tu correo">
+                        </div>
+                        <div class="form-group col-md-10 ">
+                            <label for="inputPassword4">Telefono</label>
+                            <input [(ngModel)]="registro.tele" name="registro.tele" name="tele" class="form-control"
+                                id="inputPassword4" placeholder="Escribe el nombre de tu telefono">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-10 ">
+                        <label for="inputPassword4">Como podemos ayudarte?</label>
+                        <select [(ngModel)]="registro.help " name="registro.help" class="custom-select my-1 mr-sm-2"
+                            id="inlineFormCustomSelectPref">
+                            <option selected>Elije uno</option>
+                            <option value="Revisoría Fiscal y Auditoría Externa">Revisoría Fiscal y Auditoría Externa
+                            </option>
+                            <option value="Consultoría contable">Consultoría contable</option>
+                            <option value="Servicio de Aseguramiento de Riesgos(RAS)">Servicio de Aseguramiento de
+                                Riesgos(RAS)</option>
+                            <option value="Auditorias Especiales">Auditorias Especiales</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-10">
+                        <label for="exampleFormControlTextarea1">comentario</label>
+                        <textarea [(ngModel)]="registro.comenta" name="registro.comenta" id="textA" class="form-control"
+                            rows="7"></textarea>
+                    </div>
+                    <label class="form-group col-md-10" for="condiciones">Acepta los terminos <a
+                            href="pagina_condiciones.html"> y condiciones</a></label><input type="checkbox"
+                        name="condiciones" />
+                    <button type="submit" (click)=" sendRegister()" class="submit col-md-10">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="botton">
+        <h5>Soluciones</h5>
+        <button type="button" class="button">Auditoría Externa y Revisoría Fiscal </button>
+        <button type="button" class="button">Auditorías Especiales</button>
+        <button type="button" class="button">Consultoría Contable y Mercado de Capitales</button>
+        <button type="button" class="button">Risk Assurance Services (RAS) - Aseguramiento de terceras partes</button>
+        <button type="button" class="button">Servicios de Control Interno</button>
+    </div>
+    <h5 id="fa">Feactured</h5>
+</div>
+<div class="row">
+    <div class="col">
+        <div id="col1">
+            <div class="box">
+                <a class="ref" href="">NIFF -Mas alla de la implementacion</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div id="col2">
+            <div class="box">
+                <a class="ref" href="">Encuesta Global Anual</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <button type="button" class="butt">Brochure Auditoria <span class="material-icons">arrow_forward_ios</span></button>
+    <button type="button" class="butt">Assurance Brochure<span class="material-icons">arrow_forward_ios</span></button>
+</div>
+<h5 id="h5">Contactenos</h5>
+<div class="row">
+    <div id="contacto" class="col">
+        <div class="row" *ngFor="let item of contactos">
+            <div class="col-7 ">
+                <div id="cardOne" class=" ">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col">
+                                <img src="{{item?.img}}" alt="">
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">{{item.name}}</h5>
+                                <p class="card-text">{{item.puesto}}</p>
+                                <p class="card-text">{{item.Tel}}</p>
+                                <a href="#"><img src="../../../assets/download.gif" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <h5>Siguenos</h5>
+        <a class="redes" href="https://www.facebook.com/pwccolombia/"><img class="imgRedes"
+                src="../../../assets/img/follow_facebook.gif" alt=""></a>
+        <a class="redes" href="https://twitter.com/PwC_Colombia"><img class="imgRedes"
+                src="../../../assets/img/follow_twitter.webp" alt=""></a>
+        <a class="redes" href="https://www.linkedin.com/company/pwc-colombia/"><img class="imgRedes"
+                src="../../../assets/img/follow_linkedin.png" alt=""></a>
+        <a class="redes" href="https://www.youtube.com/user/PwCColombia"><img class="imgRedes"
+                src="../../../assets/img/follow_youtube.webp" alt=""></a>
+        <a class="redes" href="https://www.instagram.com/pwc_colombia/"><img class="imgRedes"
+                src="../../../assets/img/follow_instagram.png" alt=""></a>
+    </div>
+</div>
+<div class="row">
+    <hr>
+    <div class="col">
+        <div class="boxText">
+            <h3 class="h3">Somos una comunidad que da soluciones, combinando la inteligencia humana, la experiencia y la
+                innovación
+                tecnológica para entregar resultados sostenibles y construir confianza.</h3>
+            <h3 class="h3">Todo tiene sentido con La Nueva Ecuación.</h3>
+            <a href="#">Mira cómo La Nueva Ecuación puede darte soluciones</a>
+        </div>
+    </div>
+    <div class="col">
+        <img id="imagenT" src="../../../assets//img/Screen Shot 2022-03-15 at 11.04.16 AM.png" alt="">
+    </div>
+</div>

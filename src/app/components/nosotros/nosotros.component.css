@@ -1,0 +1,98 @@
+.box{
+    background-image: url('../../../assets/img/nosotros.jpeg');
+    height: 500px;
+
+}
+.boxTwo{
+    width: 883px;
+    height: 341px;
+    background-color: #2d2d2d;
+    margin-top: 10rem;
+}
+h1{
+    color: #fff;
+    padding: 4rem;
+}
+.img{
+    margin-left: 3rem;
+    background-color: #fff;
+    height: 25px;
+    width: 30px;
+}
+.img:hover{
+    margin-left: 3rem;
+    background-color: rgb(94, 92, 92);
+    height: 25px;
+    width: 30px;
+}
+h2{
+    color: black;
+    margin-left: 3rem;
+}
+#images{
+    padding: 3rem;
+}
+#title{
+    margin-top: 2rem;
+}
+#box2{
+    height: 648px;
+    background-color: #f2f2f2;
+}
+#box3{
+    height: 170px;
+    background-color:#E0301E;
+}
+.butt{
+    height:144px;
+    background-color:#E0301E;
+    border: none;
+    margin-top: 2px;
+    font-size: 24px;
+    color: #fff;
+}
+.boxText{
+    margin-top:4rem;
+    margin-left: 5rem;
+}
+.h3{
+    padding:15px ;
+}
+#imagenT{
+    max-width:100%;
+}
+h6{
+    font-size: 15px;
+    margin-left: 3rem;
+}
+h6{
+    font-size: 14px;
+    margin-top: 2rem;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 16px;
+    margin-left: 3rem;
+    margin-top:2rem;
+}
+h5{
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+h4{
+    font-size: 25px;
+}
+.butt:hover{
+    height:144px;
+    background-color:#A32020;
+    border: none;
+    margin-top: 2px;
+    font-size: 24px;
+    color: #fff;
+}
